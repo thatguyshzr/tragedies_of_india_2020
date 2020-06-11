@@ -1,0 +1,48 @@
+ body {
+	margin: 0;
+	padding: 0;
+ }
+
+@font-face { font-family: Aileron; src: url('fonts/Aileron-Light.otf'); }
+@font-face { font-family: orator; src: url('fonts/OratorStd.otf'); }
+@font-face { font-family: arista; src: url('fonts/Arista2.0 Alternate light.ttf'); }
+
+.header_font {
+	text-align: center;
+	color: white;
+	text-decoration: underline;
+	font-family: Aileron;
+	/*background: #c31432;*/
+}
+ 
+#grad {
+	background: #c31432;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.image_size {
+	height: 80px;
+	width: 120px;
+}
+
+.made_by_font {
+	text-align: center;
+	color: white;
+	font-family: orator
+}
+
+.shzr_font {
+	text-align: center;
+	color: white;
+	letter-spacing: 2px;
+	font-family: arista;
+}
